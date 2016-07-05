@@ -1,0 +1,9 @@
+apiKey=0793e014-40df-42b5-8d65-659fab76f4f7
+eclipse.preferences.version=1
+environmentId=development_64aeafa2-c233-4151-8e78-7c226d942868
+gameId=74a75d2f-33ea-48df-9746-3c659d7405f8
+masterApiKey=2abb5380-688c-4980-80ea-3dc7825f45f8
+proxyPort=8181
+secret=d9d93cd6471ac326bcd2b168082171f2
+structure=[{"name"\:"ttest","collection"\:"","trigger"\:"testscript","filename"\:"ttest.js","md5_checksum"\:"54bfbd259c61b47920c080cc1bf11dfb","package_name"\:"","local_package_name"\:null,"local_name"\:null},{"name"\:"retest","collection"\:"","trigger"\:"testscript","filename"\:"retest.js","md5_checksum"\:"8d41b853783f0fa20a103d60a39beb4c","package_name"\:"","local_package_name"\:null,"local_name"\:null}]
+url=http\://staging.gamedonia.com\:8080/v1

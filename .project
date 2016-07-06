@@ -19,7 +19,7 @@
 		<link>
 			<name>hookScripts/serverHooks</name>
 			<type>2</type>
-			<location>/Users/jalbillos/Documents/QA_Test/debugger_workspaces/luna_sr2_963/28_june_env3/serverHooks</location>
+			<location>/Users/jalbillos/Documents/QA_Test/debugger_workspaces/luna_sr2_963/src-ctrl-test/serverHooks</location>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -2,11 +2,11 @@ describe("Gamedonia test environments", function() {
     
     var env=null;
 
-    beforeEach(function() {
+    beforeAll(function() {
           env = gamedonia.createTestEnvironment();
     });
      
-     afterEach(function() {
+     afterAll(function() {
         env.destroy();
         env=null;
     });
@@ -34,7 +34,7 @@ describe("Gamedonia test environments", function() {
 
 	    var user = null;
 		var session = null;
-		beforeEach(function() {
+		beforeAll(function() {
 
 	    	// we create a user
 	    	user = env.createUser({name:'Not Alberto', lastname:'Not Xaubet', age:80});
@@ -43,7 +43,7 @@ describe("Gamedonia test environments", function() {
 	    	session = user.login();
 	    });
 	     
-	     afterEach(function() {
+	     afterAll(function() {
 
 	        session.logout();
 	        user = null;
@@ -71,5 +71,23 @@ describe("Gamedonia test environments", function() {
 			expect(ordersCount.isOk()).toBe(true);
 			expect(ordersCount.getResult().count).toBeGreaterThan(0);
 		});
+	    
+	    it("run custom scripts", function(){
+	    	
+	    	var rankingsCount = session.count("rankings", "{}");
+			expect(rankingsCount.isOk()).toBe(true);
+			expect(rankingsCount.getResult().count).toBe(0);
+	    	
+	    	var scriptResult = session.run("addranking");
+	    	if(scriptResult.isOk()) {
+	    		
+	    		var result = scriptResult.getResult();
+	    		expect(result).notToBeUndefined();
+	    	}
+	    	
+	    	rankingsCount = session.count("rankings", "{}");
+			expect(rankingsCount.isOk()).toBe(true);
+			expect(rankingsCount.getResult().count).toBe(1);
+	    });
 	});
 });

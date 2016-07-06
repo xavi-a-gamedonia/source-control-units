@@ -334,3 +334,405 @@ Caused by: java.lang.IllegalStateException: The scripts Cache is not alive (STAT
 	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [api-debugger-assembly-1.0.1.jar:1.0.1]
 	... 6 common frames omitted
 
+2016-07-05 12:47:57,237 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 12:47:57,306 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 12:48:08,566 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: ec6d5539-61a2-4372-8f2f-cb7c5cd4fd4d
+
+2016-07-05 12:48:08,601 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [ec6d5539-61a2-4372-8f2f-cb7c5cd4fd4d]
+
+2016-07-05 12:48:09,514 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: ec6d5539-61a2-4372-8f2f-cb7c5cd4fd4d
+
+2016-07-05 12:48:09,515 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [ec6d5539-61a2-4372-8f2f-cb7c5cd4fd4d]
+
+2016-07-05 12:49:00,574 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 12:49:00,635 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 12:49:12,206 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: b48f00b2-1811-4e42-96cd-198a508c0dfe
+
+2016-07-05 12:49:12,222 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [b48f00b2-1811-4e42-96cd-198a508c0dfe]
+
+2016-07-05 12:49:12,433 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: b48f00b2-1811-4e42-96cd-198a508c0dfe
+
+2016-07-05 12:49:12,434 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [b48f00b2-1811-4e42-96cd-198a508c0dfe]
+
+2016-07-05 12:51:26,071 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 12:51:26,134 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 12:51:37,185 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER SCRIPTING API KEY: de775545-b6bd-410c-b70c-6cc549a5d5ca
+
+2016-07-05 12:51:37,199 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER API KEY: [de775545-b6bd-410c-b70c-6cc549a5d5ca]
+
+2016-07-05 12:51:37,358 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER SCRIPTING API KEY: de775545-b6bd-410c-b70c-6cc549a5d5ca
+
+2016-07-05 12:51:37,359 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER API KEY: [de775545-b6bd-410c-b70c-6cc549a5d5ca]
+
+2016-07-05 12:52:45,324 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 12:52:45,386 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 12:52:57,526 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER SCRIPTING API KEY: cff12fdd-ad1e-46b6-b567-af5c97356c1d
+
+2016-07-05 12:52:57,548 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER API KEY: [cff12fdd-ad1e-46b6-b567-af5c97356c1d]
+
+2016-07-05 12:52:57,807 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER SCRIPTING API KEY: cff12fdd-ad1e-46b6-b567-af5c97356c1d
+
+2016-07-05 12:52:57,808 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER API KEY: [cff12fdd-ad1e-46b6-b567-af5c97356c1d]
+
+2016-07-05 12:58:48,515 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 12:58:48,585 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 12:58:59,376 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 5fbf38a6-391e-4f7a-956f-d73d7bcf6365
+
+2016-07-05 12:58:59,402 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [5fbf38a6-391e-4f7a-956f-d73d7bcf6365]
+
+2016-07-05 12:58:59,556 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 5fbf38a6-391e-4f7a-956f-d73d7bcf6365
+
+2016-07-05 12:58:59,558 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [5fbf38a6-391e-4f7a-956f-d73d7bcf6365]
+
+2016-07-05 13:00:11,618 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 13:00:11,681 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 13:00:22,989 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER SCRIPTING API KEY: c0a55003-d653-4099-9d9c-9b73bd8301cc
+
+2016-07-05 13:00:23,002 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER API KEY: [c0a55003-d653-4099-9d9c-9b73bd8301cc]
+
+2016-07-05 13:00:23,155 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER SCRIPTING API KEY: c0a55003-d653-4099-9d9c-9b73bd8301cc
+
+2016-07-05 13:00:23,156 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER API KEY: [c0a55003-d653-4099-9d9c-9b73bd8301cc]
+
+2016-07-05 14:56:23,125 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 14:56:23,329 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 14:56:40,388 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+USER SCRIPTING API KEY: af059a73-b09e-4f8d-9fcb-ecc7d8b046a5
+
+2016-07-05 14:56:40,427 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+USER API KEY: [af059a73-b09e-4f8d-9fcb-ecc7d8b046a5]
+
+2016-07-05 14:56:40,678 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+USER SCRIPTING API KEY: af059a73-b09e-4f8d-9fcb-ecc7d8b046a5
+
+2016-07-05 14:56:40,679 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+USER API KEY: [af059a73-b09e-4f8d-9fcb-ecc7d8b046a5]
+
+2016-07-05 14:56:46,502 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+USER SCRIPTING API KEY: c3e60fab-e3b3-4da0-93f0-1d6feb41cf4a
+
+2016-07-05 14:56:46,508 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+USER API KEY: [c3e60fab-e3b3-4da0-93f0-1d6feb41cf4a]
+
+2016-07-05 14:56:46,736 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+USER SCRIPTING API KEY: c3e60fab-e3b3-4da0-93f0-1d6feb41cf4a
+
+2016-07-05 14:56:46,737 - [INFO] - from application in play-akka.actor.default-dispatcher-5 
+USER API KEY: [c3e60fab-e3b3-4da0-93f0-1d6feb41cf4a]
+
+2016-07-05 16:09:06,325 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 16:09:06,420 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 16:09:17,341 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+USER SCRIPTING API KEY: 606cd2bf-4409-4703-85a7-22159907fbc5
+
+2016-07-05 16:09:17,368 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+USER API KEY: [606cd2bf-4409-4703-85a7-22159907fbc5]
+
+2016-07-05 16:09:17,526 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+USER SCRIPTING API KEY: 606cd2bf-4409-4703-85a7-22159907fbc5
+
+2016-07-05 16:09:17,527 - [INFO] - from application in play-akka.actor.default-dispatcher-9 
+USER API KEY: [606cd2bf-4409-4703-85a7-22159907fbc5]
+
+2016-07-05 16:09:21,974 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER SCRIPTING API KEY: 13f25891-2d01-4dab-9d59-65e8b09ae554
+
+2016-07-05 16:09:21,975 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER API KEY: [13f25891-2d01-4dab-9d59-65e8b09ae554]
+
+2016-07-05 16:09:22,139 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER SCRIPTING API KEY: 13f25891-2d01-4dab-9d59-65e8b09ae554
+
+2016-07-05 16:09:22,140 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER API KEY: [13f25891-2d01-4dab-9d59-65e8b09ae554]
+
+2016-07-05 16:10:32,187 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 16:10:32,252 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 16:10:43,314 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER SCRIPTING API KEY: 6c08fe12-ff77-46ad-a781-3752ef8f6346
+
+2016-07-05 16:10:43,340 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER API KEY: [6c08fe12-ff77-46ad-a781-3752ef8f6346]
+
+2016-07-05 16:10:43,477 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER SCRIPTING API KEY: 6c08fe12-ff77-46ad-a781-3752ef8f6346
+
+2016-07-05 16:10:43,478 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER API KEY: [6c08fe12-ff77-46ad-a781-3752ef8f6346]
+
+2016-07-05 16:10:47,671 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER SCRIPTING API KEY: a9d8ca46-93e7-49d7-a9d7-6303e814ed47
+
+2016-07-05 16:10:47,672 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER API KEY: [a9d8ca46-93e7-49d7-a9d7-6303e814ed47]
+
+2016-07-05 16:10:47,805 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER SCRIPTING API KEY: a9d8ca46-93e7-49d7-a9d7-6303e814ed47
+
+2016-07-05 16:10:47,806 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER API KEY: [a9d8ca46-93e7-49d7-a9d7-6303e814ed47]
+
+2016-07-05 16:12:06,497 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 16:12:06,560 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 16:12:17,144 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+USER SCRIPTING API KEY: d51c9355-72b4-4068-b1ce-52b2ff151d3e
+
+2016-07-05 16:12:17,163 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+USER API KEY: [d51c9355-72b4-4068-b1ce-52b2ff151d3e]
+
+2016-07-05 16:12:17,296 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+USER SCRIPTING API KEY: d51c9355-72b4-4068-b1ce-52b2ff151d3e
+
+2016-07-05 16:12:17,297 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+USER API KEY: [d51c9355-72b4-4068-b1ce-52b2ff151d3e]
+
+2016-07-05 16:12:21,729 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+USER SCRIPTING API KEY: 183f8bdb-6687-4b8c-99e5-b98c8e988b4a
+
+2016-07-05 16:12:21,730 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+USER API KEY: [183f8bdb-6687-4b8c-99e5-b98c8e988b4a]
+
+2016-07-05 16:12:21,865 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+USER SCRIPTING API KEY: 183f8bdb-6687-4b8c-99e5-b98c8e988b4a
+
+2016-07-05 16:12:21,866 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+USER API KEY: [183f8bdb-6687-4b8c-99e5-b98c8e988b4a]
+
+2016-07-05 16:12:58,027 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-05 16:12:58,091 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-05 16:13:08,237 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER SCRIPTING API KEY: 84637eb4-df9f-4c34-a831-9254ee64340d
+
+2016-07-05 16:13:08,266 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER API KEY: [84637eb4-df9f-4c34-a831-9254ee64340d]
+
+2016-07-05 16:13:08,427 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER SCRIPTING API KEY: 84637eb4-df9f-4c34-a831-9254ee64340d
+
+2016-07-05 16:13:08,428 - [INFO] - from application in play-akka.actor.default-dispatcher-8 
+USER API KEY: [84637eb4-df9f-4c34-a831-9254ee64340d]
+
+2016-07-05 16:13:13,001 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER SCRIPTING API KEY: 2cab0b53-4173-4628-b8d0-17bad12b62c6
+
+2016-07-05 16:13:13,002 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER API KEY: [2cab0b53-4173-4628-b8d0-17bad12b62c6]
+
+2016-07-05 16:13:13,161 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER SCRIPTING API KEY: 2cab0b53-4173-4628-b8d0-17bad12b62c6
+
+2016-07-05 16:13:13,161 - [INFO] - from application in play-akka.actor.default-dispatcher-6 
+USER API KEY: [2cab0b53-4173-4628-b8d0-17bad12b62c6]
+
+2016-07-06 08:41:19,946 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-06 08:41:20,272 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-06 08:41:35,729 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 30370284-0c85-4389-86c5-46476e52672a
+
+2016-07-06 08:41:35,745 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [30370284-0c85-4389-86c5-46476e52672a]
+
+2016-07-06 08:41:35,914 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 30370284-0c85-4389-86c5-46476e52672a
+
+2016-07-06 08:41:35,916 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [30370284-0c85-4389-86c5-46476e52672a]
+
+2016-07-06 08:43:55,897 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-06 08:43:55,978 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-06 08:44:06,593 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: e486aa5d-9e7a-4b63-b625-96c04996f1f6
+
+2016-07-06 08:44:06,608 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [e486aa5d-9e7a-4b63-b625-96c04996f1f6]
+
+2016-07-06 08:44:06,766 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: e486aa5d-9e7a-4b63-b625-96c04996f1f6
+
+2016-07-06 08:44:06,767 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [e486aa5d-9e7a-4b63-b625-96c04996f1f6]
+
+2016-07-06 08:44:33,277 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-06 08:44:33,336 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-06 08:44:42,028 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER SCRIPTING API KEY: d3b9712b-a7c3-4c91-890c-a5bef9cf152e
+
+2016-07-06 08:44:42,047 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER API KEY: [d3b9712b-a7c3-4c91-890c-a5bef9cf152e]
+
+2016-07-06 08:44:42,190 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER SCRIPTING API KEY: d3b9712b-a7c3-4c91-890c-a5bef9cf152e
+
+2016-07-06 08:44:42,191 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER API KEY: [d3b9712b-a7c3-4c91-890c-a5bef9cf152e]
+
+2016-07-06 08:45:16,635 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-06 08:45:16,697 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-06 08:45:24,393 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 9c3a3f8a-4f5e-491f-9001-fd1ab180c7bc
+
+2016-07-06 08:45:24,410 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [9c3a3f8a-4f5e-491f-9001-fd1ab180c7bc]
+
+2016-07-06 08:45:24,569 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 9c3a3f8a-4f5e-491f-9001-fd1ab180c7bc
+
+2016-07-06 08:45:24,570 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [9c3a3f8a-4f5e-491f-9001-fd1ab180c7bc]
+
+2016-07-06 08:46:08,451 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-06 08:46:08,512 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-06 08:46:16,062 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 9c6f675d-6ee3-423e-a597-1d8854e3bfa0
+
+2016-07-06 08:46:16,079 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [9c6f675d-6ee3-423e-a597-1d8854e3bfa0]
+
+2016-07-06 08:46:16,228 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 9c6f675d-6ee3-423e-a597-1d8854e3bfa0
+
+2016-07-06 08:46:16,229 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [9c6f675d-6ee3-423e-a597-1d8854e3bfa0]
+
+2016-07-06 08:58:42,301 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-06 08:58:42,391 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-06 08:58:52,029 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER SCRIPTING API KEY: 4859d676-d440-47fe-a6eb-27026239889f
+
+2016-07-06 08:58:52,044 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER API KEY: [4859d676-d440-47fe-a6eb-27026239889f]
+
+2016-07-06 08:58:52,224 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER SCRIPTING API KEY: 4859d676-d440-47fe-a6eb-27026239889f
+
+2016-07-06 08:58:52,225 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
+USER API KEY: [4859d676-d440-47fe-a6eb-27026239889f]
+
+2016-07-06 08:59:32,516 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-06 08:59:32,578 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-06 08:59:40,121 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: a0908ec6-86a1-4438-a409-391ba0f72c8a
+
+2016-07-06 08:59:40,135 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [a0908ec6-86a1-4438-a409-391ba0f72c8a]
+
+2016-07-06 08:59:40,263 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: a0908ec6-86a1-4438-a409-391ba0f72c8a
+
+2016-07-06 08:59:40,264 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [a0908ec6-86a1-4438-a409-391ba0f72c8a]
+
+2016-07-06 09:02:04,877 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-06 09:02:04,941 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-06 09:02:12,855 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 3a8e6389-c89e-4d4a-b02f-3b156b1c0732
+
+2016-07-06 09:02:12,886 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [3a8e6389-c89e-4d4a-b02f-3b156b1c0732]
+
+2016-07-06 09:02:13,035 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 3a8e6389-c89e-4d4a-b02f-3b156b1c0732
+
+2016-07-06 09:02:13,036 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [3a8e6389-c89e-4d4a-b02f-3b156b1c0732]
+

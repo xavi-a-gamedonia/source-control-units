@@ -75,14 +75,14 @@ describe("Gamedonia test environments", function() {
 	    it("run custom scripts", function(){
 	    	
 	    	var rankingsCount = session.count("rankings", "{}");
-			expect(rankingsCount.isOk()).toBe(true);
-			expect(rankingsCount.getResult().count).toBe(0);
+	    	expect(rankingsCount.isOk()).toBe(true);
+	    	expect(rankingsCount.getResult().count).toBe(0);
 	    	
 	    	var scriptResult = session.run("addranking");
 	    	if(scriptResult.isOk()) {
 	    		
 	    		var result = scriptResult.getResult();
-	    		expect(result).notToBeUndefined();
+	    		expect(result).not.toBeUndefined();
 	    	}
 	    	
 	    	rankingsCount = session.count("rankings", "{}");

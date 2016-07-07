@@ -4,7 +4,7 @@ ranking.player = "player1";
 ranking.mydate = new Date();
 ranking.score = 400;
 
-gamedonia.data.create(collection_name, ranking, {
+gamedonia.data.create("rankings", ranking, {
 
     success: function(res_create) {
 

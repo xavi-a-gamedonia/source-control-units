@@ -850,15 +850,3 @@ Application started (Prod)
 2016-07-07 10:18:31,815 - [INFO] - from play in Connect Thread 
 Listening for HTTP on /0:0:0:0:0:0:0:0:8181
 
-2016-07-07 10:18:46,508 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
-USER SCRIPTING API KEY: a3be3a47-4dff-4204-adaf-55db45df3506
-
-2016-07-07 10:18:46,523 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
-USER API KEY: [a3be3a47-4dff-4204-adaf-55db45df3506]
-
-2016-07-07 10:18:46,658 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
-USER SCRIPTING API KEY: a3be3a47-4dff-4204-adaf-55db45df3506
-
-2016-07-07 10:18:46,659 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
-USER API KEY: [a3be3a47-4dff-4204-adaf-55db45df3506]
-

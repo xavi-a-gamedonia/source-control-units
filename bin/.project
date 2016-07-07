@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>28_june_env3</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>hookScripts/serverHooks</name>
+			<type>2</type>
+			<location>/Users/jalbillos/Documents/QA_Test/debugger_workspaces/luna_sr2_963/src-ctrl-test/serverHooks</location>
+		</link>
+	</linkedResources>
+</projectDescription>

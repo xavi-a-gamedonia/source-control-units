@@ -862,3 +862,51 @@ USER SCRIPTING API KEY: a3be3a47-4dff-4204-adaf-55db45df3506
 2016-07-07 10:18:46,659 - [INFO] - from application in play-akka.actor.default-dispatcher-2 
 USER API KEY: [a3be3a47-4dff-4204-adaf-55db45df3506]
 
+2016-07-08 12:11:28,646 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-08 12:11:28,915 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-08 12:39:38,290 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-08 12:39:38,366 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-08 12:40:53,813 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-08 12:40:53,876 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-08 12:43:30,289 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-08 12:43:30,528 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-08 12:47:20,995 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-08 12:47:21,054 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-08 12:55:11,674 - [INFO] - from play in Connect Thread 
+Application started (Prod)
+
+2016-07-08 12:55:11,739 - [INFO] - from play in Connect Thread 
+Listening for HTTP on /0:0:0:0:0:0:0:0:8181
+
+2016-07-08 12:55:21,966 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 4272c088-a12d-41af-99d2-f3ba9c6ae2a0
+
+2016-07-08 12:55:21,985 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [4272c088-a12d-41af-99d2-f3ba9c6ae2a0]
+
+2016-07-08 12:55:22,199 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER SCRIPTING API KEY: 4272c088-a12d-41af-99d2-f3ba9c6ae2a0
+
+2016-07-08 12:55:22,200 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+USER API KEY: [4272c088-a12d-41af-99d2-f3ba9c6ae2a0]
+

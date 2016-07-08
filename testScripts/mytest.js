@@ -89,5 +89,10 @@ describe("Gamedonia test environments", function() {
 			expect(rankingsCount.isOk()).toBe(true);
 			expect(rankingsCount.getResult().count).toBe(1);
 	    });
+	    
+	    it("search collections", function() {
+	    
+	    	
+		});
 	});
 });

@@ -1,9 +1,9 @@
 apiKey=d97509e7-2913-4174-90e7-ac33ba73819b
 eclipse.preferences.version=1
-environmentId=development
-gameId=cdce3b2c-10b7-4c78-bdad-a773f62b8bb1
+environmentId=development_29217764-b986-4564-b341-96219a8dd8cb
+gameId=6f684d7e-b419-4df2-9573-3f114d82b538
 masterApiKey=0af20efa-51a2-4c08-91ae-6822da70965b
 proxyPort=8181
 secret=41f788674f75b1fd25f5b3d419d92724
-structure=[]
+structure=[{"name"\:"singletest","collection"\:"","trigger"\:"testscript","filename"\:"singletest.js","md5_checksum"\:"05e925bf815524a60299a79616752f7d","package_name"\:null,"local_package_name"\:null,"local_name"\:null},{"name"\:"mytest","collection"\:"","trigger"\:"testscript","filename"\:"mytest.js","md5_checksum"\:"b445dec4f32f350c4e0f36685604ba16","package_name"\:"","local_package_name"\:null,"local_name"\:null},{"name"\:"addranking","collection"\:"","trigger"\:"function","filename"\:"addranking.js","md5_checksum"\:"cf4fc972fe02ebb07dee74d5eef8f14e","package_name"\:"","local_package_name"\:null,"local_name"\:null},{"name"\:"orders","collection"\:"","trigger"\:"job","filename"\:"orders.js","md5_checksum"\:"7a6cf783cb1cc62ad0a54fe8958412b2","package_name"\:"","local_package_name"\:null,"local_name"\:null}]
 url=http\://staging.gamedonia.com\:8080/v1

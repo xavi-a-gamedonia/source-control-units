@@ -91,8 +91,32 @@ describe("Gamedonia test environments", function() {
 	    });
 	    
 	    it("search collections", function() {
-	    
-	    	
+
+	    	// prep
+	    	var loaded = session.loadData("movies",[
+		                                             {"name":"The Godfather"},
+		                                             {"name":"Jurassic Park"},
+		                                             {"name":"Titanic"},
+		                                             {"name":"Saving private Ryan"},
+		                                             {"name":"Indiana Jones"}
+		                                             ]);
+	    	expect(loaded.isOk()).toBe(true);
+			expect(loaded.getResult()).not.toBeUndefined();
+			expect(loaded.getResult().length).toEqual(5);
+			
+			var moviesCount = session.count("movies", "{}");
+			expect(moviesCount.isOk()).toBe(true);
+			expect(moviesCount.getResult().count).toBe(5);
+
+	    	var searchResult = session.search("movies",'{"name":"Jurassic Park"}');
+	    	if (searchResult.isOk()) {
+	    		
+	    		var res = searchResult.getResult();
+	    		out.println("SEARCH result: " +res);
+	    	}
+	    	else {
+	    		fail("search failed");
+	    	}
 		});
 	});
 });

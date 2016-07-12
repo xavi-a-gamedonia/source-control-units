@@ -1,8 +1,8 @@
 var ranking = gamedonia.data.newEntity();
 
-ranking.player = "player1";
+ranking.player = request.params.player;
 ranking.mydate = new Date();
-ranking.score = 400;
+ranking.score = request.params.score;
 
 gamedonia.data.create("rankings", ranking, {
 

@@ -37,7 +37,7 @@ describe("Gamedonia test environments", function() {
 		beforeAll(function() {
 
 	    	// we create a user
-	    	user = env.createUser({name:'Not Alberto', lastname:'Not Xaubet', age:80});
+	    	user = env.createUser({name:'Guy', lastname:'Brush', age:27});
 
 	    	// and log him in
 	    	session = user.login();
@@ -50,8 +50,9 @@ describe("Gamedonia test environments", function() {
 	        session = null;
 	    });
 
-	    it("load data into collections",function() {
+	    it("load multiple data into collections",function() {
 
+    		// multiple load
 	    	var loaded = session.loadData("movies",[
 		                                             {"name":"The Godfather"},
 		                                             {"name":"Jurassic Park"},
@@ -72,51 +73,60 @@ describe("Gamedonia test environments", function() {
 			expect(ordersCount.getResult().count).toBeGreaterThan(0);
 		});
 	    
-	    it("run custom scripts", function(){
+	    it("insert single entity & get", function() {
+	    
+	    	// single insert
+			var inserted = session.insertData("movies",{"name":"Batman"});
+			expect(inserted.isOk()).toBe(true);
+			expect(inserted.getResult().name).toBe("Batman");
+			
+			var moviesCount = session.count("movies", "{}");
+			expect(moviesCount.isOk()).toBe(true);
+			expect(moviesCount.getResult().count).toBe(6);
+			
+			var entityId = inserted.getResult()._id;
+			
+			var ent = session.get("movies", entityId);
+	    	expect(ent.isOk()).toBe(true);
+	    	expect(ent.getResult().name).toBe("Batman");
+	    });
+	    
+	    it("run custom scripts", function() {
 	    	
 	    	var rankingsCount = session.count("rankings", "{}");
-	    	expect(rankingsCount.isOk()).toBe(true);
-	    	expect(rankingsCount.getResult().count).toBe(0);
+			expect(rankingsCount.isOk()).toBe(true);
+			expect(rankingsCount.getResult().count).toBe(0);
 	    	
-	    	var scriptResult = session.run("addranking");
-	    	if(scriptResult.isOk()) {
+	    	var scriptResult = session.run("addranking", {player:"player1",score:400 });
+	    	if(scriptResult.isOk()) {	
 	    		
 	    		var result = scriptResult.getResult();
 	    		expect(result).not.toBeUndefined();
+	    		out.println(result.player);
+	    		expect(result.player).toBe("player1");
+	    		expect(result.score).toBe(400);
+	    	}
+	    	else {
+	    		fail("run failed");
 	    	}
 	    	
 	    	rankingsCount = session.count("rankings", "{}");
 			expect(rankingsCount.isOk()).toBe(true);
 			expect(rankingsCount.getResult().count).toBe(1);
 	    });
-	    
-	    it("search collections", function() {
 
-	    	// prep
-	    	var loaded = session.loadData("movies",[
-		                                             {"name":"The Godfather"},
-		                                             {"name":"Jurassic Park"},
-		                                             {"name":"Titanic"},
-		                                             {"name":"Saving private Ryan"},
-		                                             {"name":"Indiana Jones"}
-		                                             ]);
-	    	expect(loaded.isOk()).toBe(true);
-			expect(loaded.getResult()).not.toBeUndefined();
-			expect(loaded.getResult().length).toEqual(5);
-			
-			var moviesCount = session.count("movies", "{}");
-			expect(moviesCount.isOk()).toBe(true);
-			expect(moviesCount.getResult().count).toBe(5);
+	    it("search", function() {
 
 	    	var searchResult = session.search("movies",'{"name":"Jurassic Park"}');
 	    	if (searchResult.isOk()) {
 	    		
 	    		var res = searchResult.getResult();
-	    		out.println("SEARCH result: " +res);
+	    		out.println("SEARCH result: " +res[0].name);
+	    		expect(res[0].name).toBe("Jurassic Park");
 	    	}
 	    	else {
 	    		fail("search failed");
 	    	}
-		});
+	    });
 	});
 });
